@@ -15,7 +15,7 @@
 		<PeopleInput />
 	</section>
 
-	<hr>
+	<hr class="hr-lite">
 
 	<section>
 		<h2>Pairs</h2>
@@ -48,10 +48,15 @@
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
+		margin: 0 0 1rem 0;
 	}
 
 	.privacy-notice {
 		font-style: italic;
 		font-size: 0.75rem;
+	}
+
+	.hr-lite {
+		border: 0.5px solid #ccc;
 	}
 </style>
